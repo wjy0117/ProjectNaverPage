@@ -139,6 +139,7 @@ li{
 	height: 60%;
 	margin: 10px;
 }
+
 /*체크박스 부눈에 대한 스타일 정의*/
 input[type=checkbox] {
     display:none;
