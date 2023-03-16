@@ -97,11 +97,12 @@
 							<p>네이버에서 제공하는 이벤트/혜택 등 다양한 정보를 휴대전화(네이버앱 알림 또는 문자), 
 							이메일로 받아보실 수 있습니다. 일부 서비스(별도 회원 체계로 운영하거나 네이버 가입 이후 추가 가입하여 이용하는 서비스 등)의 경우, 
 							개별 서비스에 대해 별도 수신 동의를 받을 수 있으며, 이때에도 수신 동의에 대해 별도로 안내하고 동의를 받습니다.</p>
-							<!-- 빨간색 글자로 표시 -->
-							<div id="warning">네이버 이용약관과 개인정보 수집 및 이용에 대한 안내 모두 동의해주세요.</div>
 						</div>
 					</li>
 				</ul>
+				<br>
+				<!-- 빨간색 글자로 표시 -->
+				<div id="warning">네이버 이용약관과 개인정보 수집 및 이용에 대한 안내 모두 동의해주세요.</div>
 			</div>
 			<div class="agree_button">
 				<button  type="button" onclick = "location.href='mainNaver.html'">취소</button>
@@ -146,7 +147,7 @@
 					<select name = "birth_month" id="select_month" style="height: 100%">
 						<option selected disabled>월</option>
 						<option>1</option>
-						<option>2<option>
+						<option>2</option>
 						<option>3</option>
 						<option>4</option>
 						<option>5</option>
@@ -194,26 +195,29 @@
 				</div>
 				<div id="errorTextPhone"></div>
 			</div>
-			<button type="button" id="result">가입하기</button>
+			<button type="button" id="result_button">가입하기</button>
 		</div>
 	</div>
-	<div id="info">
-		<ul>
-			<li>이용약관
-			<li>개인정보처리방침
-			<li>책임의 한계와 법적고지
-			<li>회원정보 고객센터
-		</ul>
-		<ul>
-			<li>NAVER
-			<li>Copyright NAVER Corp. All Rights Reserved.
-		</ul>
-	</div>
 	</form>
-	
 	<script>
 		document.getElementById("result").style.display = "none";
 		document.getElementById("warning").style.display = "none";
 	</script>
 </body>
+<footer>
+	<form class="form2" name="info">
+		<div id="info">
+			<ul>
+				<li>이용약관 </li>
+				<li>개인정보처리방침 </li>
+				<li>책임의 한계와 법적고지 </li>
+				<li>회원정보 고객센터 </li>
+			</ul>
+			<ul>
+				<li>NAVER </li>
+				<li>Copyright NAVER Corp. All Rights Reserved. </li>
+			</ul>
+		</div>
+	</form>
+</footer>
 </html>
